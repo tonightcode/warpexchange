@@ -1,0 +1,9 @@
+build/
+ui/target/
+common/target/
+config/target/
+push/target/
+quotation/target/
+trading-api/target/
+trading-engine/target/
+trading-sequencer/target/
