@@ -55,11 +55,13 @@
     <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="module" module-name="common" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.21" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.21" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: io.pebbletemplates:pebble-spring-boot-starter:3.1.5" level="project" />
     <orderEntry type="library" name="Maven: io.pebbletemplates:pebble-spring5:3.1.5" level="project" />
     <orderEntry type="library" name="Maven: io.pebbletemplates:pebble:3.1.5" level="project" />
     <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
@@ -68,7 +70,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.21" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.21" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.21" level="project" />
   </component>
 </module>

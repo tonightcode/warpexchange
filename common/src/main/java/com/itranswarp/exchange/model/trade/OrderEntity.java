@@ -23,4 +23,18 @@ public class OrderEntity {
     //创建和更新时间
     public Long createdAt;
     public Long updatedAt;
+
+    private int version;
+
+    public void updateOrder(BigDecimal unfilledQuantity, OrderStatus status, long updatedAt) {
+        this.version++;
+        this.unfilledQuantity = unfilledQuantity;
+        this.status = status;
+        this.updatedAt = updatedAt;
+        this.version++;
+    }
+
+    public int getVersion() {
+        return this.version;
+    }
 }

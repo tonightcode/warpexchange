@@ -1,6 +1,5 @@
 package com.itranswarp.exchange.match;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.TreeMap;
 
@@ -8,7 +7,7 @@ import com.itranswarp.exchange.enums.Direction;
 import com.itranswarp.exchange.model.trade.OrderEntity;
 
 public class OrderBook {
-    
+
     public final Direction direction; //方向
     public final TreeMap<OrderKey,OrderEntity> book; //排序树
 
